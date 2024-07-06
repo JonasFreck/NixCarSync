@@ -1,8 +1,8 @@
 import subprocess
 
 #problem may have been the way I referenced the source and destination by copying from the local path in VSCode, not sure why
-source = "source/directory"
-destination = "destination/directory"
+source = "./source/directory/"
+destination = "./destination/directory/"
 
 command = ["rsync", "-av", source, destination]
 
