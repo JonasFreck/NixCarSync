@@ -7,8 +7,8 @@ path_to_destination = os.environ.get("DESTINATION_PATH")
 
 
 
-#path_to_destination = "destination/directory"
-#path_to_source = "source/directory"
+#path_to_destination = "./destination/directory/"
+#path_to_source = "./source/directory/"
 
 print(path_to_source)
 print(path_to_destination)

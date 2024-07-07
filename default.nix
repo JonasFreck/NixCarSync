@@ -9,8 +9,8 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    export SOURCE_PATH="source/directory"
-    export DESTINATION_PATH="destination/directory"
+    export SOURCE_PATH="./source/directory/"
+    export DESTINATION_PATH="./destination/directory/"
     echo "Environment with Python and rsync set up. You can run your script now."
   '';
 }
